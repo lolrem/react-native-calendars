@@ -11,10 +11,8 @@ export default function (theme: Theme = {}) {
     header: {
       flexDirection: 'row',
       justifyContent: 'space-between',
-      paddingLeft: 10,
-      paddingRight: 10,
-      marginTop: 6,
       alignItems: 'center'
+      marginBottom: 16
     },
     headerContainer: {
       flexDirection: 'row'
@@ -24,10 +22,8 @@ export default function (theme: Theme = {}) {
       fontFamily: appStyle.textMonthFontFamily,
       fontWeight: appStyle.textMonthFontWeight,
       color: appStyle.monthTextColor,
-      margin: 10
     },
     arrow: {
-      padding: 10,
       ...appStyle.arrowStyle
     },
     arrowImage: {
