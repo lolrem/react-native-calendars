@@ -160,11 +160,41 @@ const CalendarHeader = forwardRef((props: CalendarHeaderProps, ref) => {
         dayStyle.push(style[dayTextAtIndex]);
       }
 
-      return (
-        <Text allowFontScaling={false} key={index} style={dayStyle} numberOfLines={1} accessibilityLabel={''}>
-          {day}
-        </Text>
-      );
+      const renderDay = () => {
+        if(day === '토'){
+          return (
+              <Text 
+                  allowFontScaling={false} 
+                  key={index} 
+                  style={style.current.saturdayDayHeader} 
+                  numberOfLines={1} 
+                  accessibilityLabel={''}
+              >{day}</Text>
+          )
+        } else if(day === '일'){
+          return (
+              <Text 
+                  allowFontScaling={false} 
+                  key={index} 
+                  style={style.current.sundayDayHeader} 
+                  numberOfLines={1} 
+                  accessibilityLabel={''}
+              >{day}</Text>
+          )
+        } else{
+          return (
+              <Text 
+                  allowFontScaling={false} 
+                  key={index} 
+                  style={dayStyle} 
+                  numberOfLines={1} 
+                  accessibilityLabel={''}
+              >{day}</Text>
+          )
+        }
+      }
+
+      return renderDay();
     });
   }, [firstDay]);
 
