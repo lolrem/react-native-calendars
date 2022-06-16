@@ -10,7 +10,7 @@ export default function (theme: Theme = {}) {
   return StyleSheet.create({
     header: {
       flexDirection: 'row',
-      justifyContent: 'space-between',
+      justifyContent: 'center',
       alignItems: 'center',
       marginBottom: 16
     },
