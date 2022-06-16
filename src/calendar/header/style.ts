@@ -11,7 +11,7 @@ export default function (theme: Theme = {}) {
     header: {
       flexDirection: 'row',
       justifyContent: 'space-between',
-      alignItems: 'center'
+      alignItems: 'center',
       marginBottom: 16
     },
     headerContainer: {
