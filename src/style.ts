@@ -31,7 +31,7 @@ export const dotStyle = undefined;
 export const arrowStyle = undefined;
 
 export const calendarBackground = foregroundColor;
-export const textSectionTitleColor = '#b6c1cd';
+export const textSectionTitleColor = '#262626';
 export const textSectionTitleDisabledColor = '#d9e1e8';
 export const selectedDayBackgroundColor = textLinkColor;
 export const selectedDayTextColor = foregroundColor;
