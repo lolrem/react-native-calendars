@@ -57,3 +57,6 @@ export const todayButtonTextColor = textLinkColor;
 export const todayButtonPosition = undefined; // right' / 'left'(default)
 
 export const weekVerticalMargin = 7;
+
+export const saturdaytextSectionTitleColor = '#007AFF';
+export const sundaytextSectionTitleColor = '#FF3B30';
