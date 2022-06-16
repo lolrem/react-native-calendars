@@ -18,12 +18,12 @@ export const todayButtonFontFamily = 'System';
 
 export const textDayFontWeight = '300';
 export const textMonthFontWeight = '300';
-export const textDayHeaderFontWeight = undefined;
+export const textDayHeaderFontWeight = '400';
 export const todayButtonFontWeight = '600';
 
 export const textDayFontSize = 16;
 export const textMonthFontSize = 16;
-export const textDayHeaderFontSize = 13;
+export const textDayHeaderFontSize = 16;
 export const todayButtonFontSize = 14;
 
 export const textDayStyle = undefined;
