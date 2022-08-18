@@ -1,7 +1,7 @@
 import {ViewStyle, TextStyle} from 'react-native';
 
 export type MarkingTypes = 'dot' | 'multi-dot' | 'period' | 'multi-period' | 'custom';
-export type DayState = 'selected' | 'disabled' | 'inactive' | 'today' | '';
+export type DayState = 'selected' | 'disabled' | 'inactive' | 'today' | 'active' | '';
 export type Direction = 'left' | 'right';
 export type DateData = {
   year: number;
